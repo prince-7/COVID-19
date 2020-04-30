@@ -1,0 +1,157 @@
+header
+{
+	font-size: 50px;
+}
+body
+{
+	background-color: #EBE6FE;
+	font-family: Lato;
+	font-size: 150% ;
+	line-height: 50px;
+	margin: 0;
+}
+
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	background-image: url(corna.jpg);
+	background-size: cover;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+.top
+{
+	background-color: #2D1636;
+	display : grid;
+	grid-template-columns: 1fr;
+	height: 130px;
+	color: white;
+}
+
+.main-nav
+{
+	display:flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0px;
+}
+
+
+a
+{
+	text-decoration: none;
+	color: white;
+	transition: all 0.7s;
+
+}
+
+.title
+{
+	margin-bottom: none;
+	margin: 0px;
+	text-align:center;
+	font-size: 50px;
+
+}
+.push
+{
+	margin-left: auto;
+}
+
+li
+{
+	padding:5px;
+}
+
+ul
+{
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.tracker
+{
+	width:220px;
+	height: 60px;
+	background-color:#6E44F7 ;
+	font-size: 20px;
+	border-width: 0px;
+	border-radius: 30px;
+	transition: all 0.7s;
+}
+
+.tracker:hover
+{
+	transform: scale(1.03);
+	box-shadow: 0px 3px 3px 3px #888888;
+}
+
+.g1
+{
+	text-align: justify-all;
+	width: 1400px;
+	height: 60px;
+	align-content: flex-end;
+	color: white;
+	transition: all 0.1s;
+	padding: 0px;
+	border-radius: 30px;
+}
+
+.g1:hover
+{
+	font-size: 105%;
+	background-image: linear-gradient(to right, rgba(255,255,255,0.3) , rgba(255,255,255,0.2),rgba(255,255,255,0.1),rgba(255,255,255,0) );
+}
+
+.about:hover
+{
+	font-size: 105%;
+}
+
+.push input[type=text]
+{
+	margin-left: 10px;
+	text-align: center;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+  border-radius: 20px 0px 0px 20px;
+  border-style: none;
+}
+
+
+.search
+{
+	height: 30%;
+	background-color: white;
+	border-radius: 0px 20px 20px 0px;
+	border-style: none;
+}
+.search:hover
+{
+	background-color: blue;
+}
+.news a
+{ 
+	color: red;
+	font-size: 80%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#myDIV {
+
+	display: none;
+  width: 100%;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+.footer
+{
+	height:30px;
+}
