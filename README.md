@@ -13,3 +13,8 @@ The following events would occur in sequence:
 -	Their respective SGR must be private and the coordinators should be added as collaborators. 
 -	And the link to their SGRs is needed in their respective forms.
 The SGR would be the primary mode for communication throughout the selection process. This process will ensure that every applicant has a basic knowledge of the frontend part. Again, this process would require only essential skills advanced skills would not be checked here.
+
+
+# NAME:- Aman Singh
+# Skill Set:- HTML,CSS,JAVASCRIPT.
+# OpenCode Performance:- prince-7 rank:-17 Points- 290
